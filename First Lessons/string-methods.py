@@ -1,0 +1,15 @@
+message = "Hello There. My name is Seyyid Ali"
+#message = message.upper()
+#message = message.lower()
+#message = message.title()
+#message = message.capitalize()
+#message = message.strip()
+message = message.split()
+message = " ".join(message)
+index = message.find("name")
+isFound = message.startswith("H")
+isFound=message.endswith("i")
+print(message)
+print(index)
+message = message.replace(" ", "+")
+message = message.center(100, "+") #alan oluşturur ortaya mesajı yazar başa ve sona + ekler
